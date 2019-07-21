@@ -1,0 +1,19 @@
+version: '3.1'
+
+services:
+
+  db.postgres:
+    image: postgres
+    restart: always
+    volumes:
+    - ./testDB.sql:/docker-entrypoint-initdb.d/testDB.sql
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: cruzhacks-2020-tables
+      
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
