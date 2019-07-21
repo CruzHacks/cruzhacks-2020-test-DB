@@ -1,4 +1,4 @@
-# CruzHacks 2019 Postgres Test Database
+# CruzHacks 2020 Postgres Test Database
 ## Dependencies:
  - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 ### Setup
