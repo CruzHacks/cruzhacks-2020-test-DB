@@ -34,8 +34,8 @@ CREATE TABLE "public"."hackers" (
     "sleepPlace" boolean NOT NULL,
     "parking" boolean NOT NULL,
     "accomodations" character varying(150),
-    "confirmeduser" boolean DEFAULT false NOT NULL,
-    "checkedin" boolean DEFAULT false NOT NULL,
+    "confirmedUser" boolean DEFAULT false NOT NULL,
+    "checkedIn" boolean DEFAULT false NOT NULL,
     CONSTRAINT "hackers_pkey" PRIMARY KEY ("email")
 ) WITH (oids = false);
 
@@ -62,8 +62,8 @@ CREATE TABLE "public"."mentors" (
     "restPlace" boolean NOT NULL,
     "parking" boolean NOT NULL,
     "accomodations" character varying(150),
-    "confirmeduser" boolean DEFAULT false NOT NULL,
-    "checkedin" boolean DEFAULT false NOT NULL,
+    "confirmedUser" boolean DEFAULT false NOT NULL,
+    "checkedIn" boolean DEFAULT false NOT NULL,
     CONSTRAINT "mentors_pkey" PRIMARY KEY ("email")
 ) WITH (oids = false);
 
@@ -75,7 +75,7 @@ CREATE TABLE "public"."organizers" (
     "portalPass" character varying(72) NOT NULL,
     "email" character varying(254) NOT NULL,
     "team" character varying(100) NOT NULL,
-    "checkedin" boolean DEFAULT false NOT NULL,
+    "checkedIn" boolean DEFAULT false NOT NULL,
     CONSTRAINT "organizers_email" PRIMARY KEY ("email")
 ) WITH (oids = false);
 
@@ -122,8 +122,8 @@ CREATE TABLE "public"."volunteers" (
     "restPlace" boolean NOT NULL,
     "parking" boolean NOT NULL,
     "accomodations" character varying(150),
-    "confirmeduser" boolean DEFAULT false NOT NULL,
-    "checkedin" boolean DEFAULT false NOT NULL,
+    "confirmedUser" boolean DEFAULT false NOT NULL,
+    "checkedIn" boolean DEFAULT false NOT NULL,
     CONSTRAINT "volunteers_pkey" PRIMARY KEY ("email")
 ) WITH (oids = false);
 
