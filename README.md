@@ -7,6 +7,7 @@
 3. Determine if the database is up by navigating to Adminer on [http://localhost:8080](http://localhost:8080) 
     - Username: `admin`
     - Password: `test`
+
 The default Postgres port is 5432.
 
 #### Tables 
