@@ -11,6 +11,7 @@
 3. Determine if the database is up by navigating to Adminer on http://localhost:8080
     - Username: `admin`
     - Password: `test`
+    - Database name: `cruzhacks-2020-tables`
 
 The default Postgres TCP port is 5432.
 
