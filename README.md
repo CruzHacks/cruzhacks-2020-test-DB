@@ -8,7 +8,7 @@
     - Username: `admin`
     - Password: `test`
 
-The default Postgres port is 5432.
+The default Postgres TCP port is 5432.
 
 #### Tables 
 `NULL` fields are optional
